@@ -1,0 +1,43 @@
+/* Additional product specific styles */
+.card-img {
+  height: 200px;
+  object-fit: contain;
+  background-color: #f9fafb;
+  padding: 1rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.top-2\.5 {
+  top: 0.625rem;
+}
+
+.text-gray-400 {
+  color: #9ca3af;
+}
+
+.md\:grid-cols-2 {
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.lg\:grid-cols-3 {
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

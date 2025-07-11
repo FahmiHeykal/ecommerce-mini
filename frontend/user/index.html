@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - ShopEase</title>
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/product.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar" id="navbar"></nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="section-title">Our Products</h2>
+        <div class="relative">
+          <input type="text" id="search-input" placeholder="Search products..." class="form-control" style="padding-left: 2.5rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute left-3 top-2.5 text-gray-400">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
+      </div>
+      
+      <div id="products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </div>
+  </main>
+
+  <script src="/js/utils.js"></script>
+  <script src="/js/product.js"></script>
+</body>
+</html>
